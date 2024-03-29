@@ -12,6 +12,8 @@
 
     <h4><a href="{% url 'book_update' book.id %}"> ویرایش اطلاعات </a></h4>
     <br>
+    <h4><a href="{% url 'book_delete' book.id %}">حذف کتاب </a></h4>
+    <br>
     <h4><a href="{% url 'book_list' %}"> book list </a></h4>
 
 {% endblock content %}
